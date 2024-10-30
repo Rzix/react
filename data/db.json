@@ -1,0 +1,28 @@
+{
+  "data": {
+    "categories": [
+      {"id": 1, "name": "JavaScript"},
+      {"id": 2, "name": "Python"},
+      {"id": 3, "name": "C#"}
+    ],
+    "forums": [
+      {"id": 1, "name": "Desktop", "categoryId": [1, 2]},
+      {"id": 2, "name": "Gaming", "categoryId": 2},
+      {"id": 3, "name": "Mobile", "categoryId": 3},
+      {"id": 4, "name": "Gaming", "categoryId": 1},
+      {"id": 5, "name": "Security", "categoryId": 2}
+    ],
+    "threads": [
+      {"id": 1, "forumId": 1, "categoryId": 1,  "title": "React Native Discussion", "description": "All about building mobile apps with React Native"},
+      {"id": 2, "forumId": 2, "title": "Unity vs Unreal", "description": "how start make game with python"},
+      {"id": 3, "forumId": 3, "title": "Flutter for Android & iOS", "description": "Discussion about cross-platform mobile development with Flutter"},
+      {"id": 4, "forumId": 1, "title": "Windows 11", "description": "How can controll OS"},
+      {"id": 5, "forumId": 4, "title": "make game with js", "description": "How can start make game with js?"},
+      {"id": 6, "forumId": 4, "title": "fix game", "description": "Some one can help me to fix that bug?"},
+      {"id": 7, "forumId": 5, "title": "Sql injection", "description": "witch package to sql injection"}
+    ],
+    "posts":[
+      {}
+    ]
+  }
+}
